@@ -1,0 +1,52 @@
+# ===== macOS 系统垃圾文件 =====
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.AppleDouble
+.LSOverride
+Icon?
+.com.apple.timemachine.donotpresent
+# 网络卷上 macOS 生成的元数据目录
+@eadir
+.TemporaryItems
+.DocumentRevisions-V100
+.VolumeIcon.icns
+.apdisk
+
+# ===== 编辑器 / 工具临时物 =====
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+node_modules/
+__pycache__/
+*.pyc
+.DerivedData/
+
+# ===== 日志与崩溃 =====
+*.log
+*.class
+*.ctxt
+hs_err_pid*
+replay_pid*
+
+# ===== 大二进制（杂项库不入库，需要时放别处）=====
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.dmg
+*.iso
+*.jar
+*.war
+*.ear
+
+# ===== 本地私密覆盖文件（如含密码的脚本副本）=====
+*.local
+.env
+.env.*
+!.env.example
