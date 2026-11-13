@@ -17,10 +17,10 @@ dev-chest/
 
 ## 命名约定
 
-- **目录内文件**：全小写 `kebab-case`，英文为主，避免空格和中文文件名（终端处理麻烦）
-- **有时效性的笔记 / 文档**：日期前缀 `YYYY-MM-DD-主题.md`，如 `2026-10-20-macos-jdk8-maven-switch.md`
-- **长期参考型文档**：不带日期，如 `macos-jdk-switch-guide.md` 这种主题明确的可持续更新
-- **脚本**：动词或功能名，如 `usejdk.zsh`、`cleanup-dsstore.sh`
+- **md 文档 / 笔记**：**允许直接用中文文件名**（如 `PyCharm远程SSH与解释器清理手册.md`），归档时保留原名，不强制转英文 kebab-case
+- **有时效性的笔记 / 文档**：日期前缀 `YYYY-MM-DD-主题.md`，主题部分可用中文，如 `2026-10-20-macos-jdk8-maven-switch.md`
+- **长期参考型文档**：不带日期，文件名点明主题即可，如 `macos-launchpad-cleanup.md`、`PyCharm远程SSH与解释器清理手册.md`
+- **脚本 / 代码片段**：仍用小写英文 `kebab-case` 或驼峰短名，如 `usejdk.zsh`、`cleanup-dsstore.sh`（终端执行方便）
 - 脚本首部尽量写一行注释说明用途，方便 grep
 
 ## 使用习惯
